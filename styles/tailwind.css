@@ -38,5 +38,14 @@
     .pagination-header {
         @apply text-blue-600 justify-center text-center font-bold text-3xl
     }
+    .photo-spacing {
+        @apply py-16 relative flex text-2xl font-semibold justify-center items-center
+    }
+    .photo-spacing-image {
+        @apply relative flex justify-center
+    }
+    .description {
+        @apply text-center px-48
+    }
 
 }
