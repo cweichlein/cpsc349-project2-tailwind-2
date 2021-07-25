@@ -8,5 +8,35 @@
     .custom-tailwind {
         @apply text-white bg-blue-500
     }
+    .hfrel {
+        @apply h-full relative
+    }
+    .title-left {
+        @apply text-4xl flex-1 text-center text-white
+    }
+    .centered-navbar {
+        @apply relative flex items-center justify-between flex-wrap bg-green-500
+    }
+    .centered-list {
+        @apply right-0 w-full flex justify-center flex-grow sm:flex sm:items-center sm:w-auto bg-green-500
+    }
+    .email-names {
+        @apply text-white hover:text-blue-900
+    }
+    .active-page {
+        @apply underline text-blue-200
+    }
+    .nav-tab {
+        @apply block mt-4 sm:inline-block sm:mt-0 text-white hover:text-blue-900 mr-auto
+    }
+    .center-i-j {
+        @apply items-center justify-center
+    }
+    .center-i-j-t {
+        @apply items-center justify-center text-center
+    }
+    .pagination-header {
+        @apply text-blue-600 justify-center text-center font-bold text-3xl
+    }
 
 }

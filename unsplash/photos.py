@@ -23,7 +23,7 @@ with open(sys.argv[1]) as tsvfile:
         with open(f'../photos/{n:03}.html', 'w') as f:
             yaml.dump(row, f, explicit_start=True)
             print('---', file=f)
-            html = f"""<div class="flex h-full relative flex-col text-center items-center justify-center m-auto">
+            html = f"""<div class="flex h-full relative flex-col center-i-j-t m-auto">
     <div class="flex p-10">
         <img class="rounded-3xl max-h-500px" src="{{{{ photo_image_url }}}}" alt="A {{{{ photo.data.photo_keyword }}}} photo by 
                   {{{{ photo.data.photographer_first_name}}}} {{{{ photo.data.photographer_last_name }}}}"/>
